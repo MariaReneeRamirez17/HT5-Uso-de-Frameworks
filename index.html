@@ -13,7 +13,6 @@
     />
   </head>
   <body>
-    
     <header>
       <div class="card text-center">
         <div class="card-header">
@@ -40,14 +39,22 @@
       </div>
     </header>
     <br />
-    <section>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+    <section class="d-flex p-2">
+      <div
+        class="row row-cols-1 row-cols-md-3 g-4"
+        class="d-flex justify-content-evenly"
+      >
         <div class="col">
           <div class="card h-100">
             <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
+            <div
+              class="card-body"
+              class="p-3 mb-2 bg-warning-subtle text-warning-emphasis"
+            >
               <h5 class="card-title"><a href="ana.html">Cuidadito</a></h5>
-              <p class="card-text">
+              <p
+                class="text-danger-emphasis p-3 mb-2 bg-success-subtle text-success-emphasis"
+              >
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -58,12 +65,13 @@
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card h-100">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title"><a href="marre.html">AYUDA</a></h5>
-              <p class="card-text">
+              <p class="text-danger-emphasis">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
                 than the first to show that equal height action.
@@ -76,6 +84,5 @@
         </div>
       </div>
     </section>
-    <footer></footer>
   </body>
 </html>
